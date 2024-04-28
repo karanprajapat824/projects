@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Oswald&display=swap');
+.profile-background{
+    background-image: linear-gradient(black -10%,#191616);
+    height: 91vh;
+    width: 100vw;
+    position: absolute;
+    overflow: auto;
+    z-index: -1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.profile-banner{  
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    gap : 5vh;
+    flex-direction: column;
+}
+
+.profile-banner-upper-part{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.profile-image{
+    border : 2px solid white;
+    height: 22vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: grid;
+    place-items : center;
+    color : white;
+    font-size: 3vw;
+    font-weight: bolder;
+    box-shadow : inset 0px 0px 10px white;
+}
+
+.profile-username{
+    color : white;
+    font-size: 1.5vw;
+}
+
+.profile-back-button{
+    color : white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    gap : 1vw;
+    cursor : pointer;
+}
+.profile-lower-part{
+    height: 45vh;
+    background-color: #333;
+    border-radius: 1vw 15vw 0vw 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 1vh;
+    color : white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.profile-main-body{
+    height: 91vh;
+    width: 80vw;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    overflow: auto;
+}
+
+.profile-navbar{
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color : white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    overflow: auto;
+}
+
+.profile-navbar label{
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10vw;
+    border : 2px solid transparent;
+    border-radius: 2vw;
+}
+
+@media screen and (max-width : 900px){
+    
+}
+
+

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Young+Serif&display=swap');
+.product-card-body{
+    height: 44vh;
+    width : 30vw;
+    display : flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 8px;
+    .get-code-button{
+        visibility: hidden;
+        position: static;
+        padding: 4px 8px 4px 6px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        font-size : 15px;
+        transform: translate(7.3rem,-2.1rem);
+        font-family: 'Montserrat', sans-serif;
+        background-color: #212121;
+        color : white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap : 6px;
+    };     
+}
+.product-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 355px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px; 
+
+}
+
+.product-card-body:hover{
+    .get-code-button{
+        visibility: visible;
+        position: static;
+        padding: 4px 8px 4px 6px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        font-size : 15px;
+        transform: translate(7.3rem,-2.1rem);
+        font-family: 'Montserrat', sans-serif;
+        background-color: #212121;
+        color : white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap : 6px;
+    }    
+}
+
+.product-card-footer{
+    height: 30px;
+    width: 334px;
+    margin-top: -22px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color : white;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-card-profile{
+    width : 80%;
+    display: flex;
+    gap : 10px;
+    align-items: center;
+    justify-content: start;
+}
+
+.product-card-likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+}
+
+a{
+    text-decoration: none;
+}
